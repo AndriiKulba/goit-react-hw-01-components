@@ -1,5 +1,80 @@
 .profile {
-  width: 60;
-  background: rgb(219, 235, 211);
-  padding: 30px;
+  width: 370px;
+  margin: auto;
+  padding: 10px;
+  padding-bottom: 0px;
+  background: white;
+  
+  list-style: none;
+  border: 1px solid #333232;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+}
+.avatarstr {
+  width: 200px;
+  height: auto;
+  border: 1px solid #f7cfcf;
+  border-radius: 50%;
+}
+.name {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  color: black;
+}
+.tag,
+.label {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: grey;
+}
+
+.location {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: grey;
+}
+
+.stats {
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-right: -10px;
+  margin-left: -10px;
+  justify-content: center;
+}
+.stats li {
+  display: list-item;
+  list-style: none;
+  padding: 10px;
+  align-items: center;
+  background-color: rgb(233, 232, 232);
+  border: 1px solid hsl(0, 1%, 67%);
+  width: calc((100% +20px) / 3);
+  height: auto;
+}
+
+.label {
+  display: block;
+  padding: 10px;
+}
+.quantity {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  color: black;
 }
